@@ -12,8 +12,8 @@ foreach($products as $item):
                 <td valign="top">
                     <div><a href="#"><img src="userfiles/<?php echo $item['image']?>" alt="" /></a></div>
                     <div class="description">
-                        <div class="product-name"><a href="#"><?php echo $item['title']?></a></div>
-                        <div class="product-price">Цена: <?php echo $item['price']?></div>
+                        <div class="map"><a href="#"><?php echo $item['title']?></a></div>
+                        <div class="blog">Блог <?php echo $item['blog']?></div>
                     </div>
                 </td>
             </tr>

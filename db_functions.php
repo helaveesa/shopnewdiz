@@ -3,9 +3,9 @@
 function db_connect() 
 {
 	$host = 'localhost';
-	$user = 'shop_user';
-	$pswd = 'adminbelka123';
-	$db = 'ishopbelka';
+	$user = 'motouser';
+	$pswd = 'motoadmin456';
+	$db = 'moto';
 	
 	// создаем сам запрос к БД
 	$connection = mysql_connect($host, $user, $pswd);
