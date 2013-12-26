@@ -1,14 +1,12 @@
 ﻿<?php
-// функция подключения к БД: db_connect
+// функция подключения к БД: db_connect db-moto
 function db_connect() 
 {
 	$host = 'localhost';
-	$user = 'motouser';
-	$pswd = 'motoadmin456';
 	$db = 'moto';
 	
 	// создаем сам запрос к БД
-	$connection = mysql_connect($host, $user, $pswd);
+	$connection = mysql_connect($host);
 	
 	/* проверка, если у нас соединение прошло неудачно или неудачно выбралась БД (либо, либо)
 	то функция вернет ложь; иначе вернуть функции соединение  в случае правды */
